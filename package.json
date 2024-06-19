@@ -1,10 +1,11 @@
 {
   "name": ".",
   "scripts": {
-    "dev": "bun run --hot src/index.tsx"
+    "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.4.6"
+    "hono": "^4.4.6",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/bun": "latest"
